@@ -17,4 +17,5 @@ The basic idea is to have multiple sets of weights for the model, and switch the
 IDK anything about this tech, but I think it adds an inner monolouge.
 ## Training
 The idea is to put a ton of datasets together, deduplicate it, and filter out the bullshit. For images, we may use the trick of training an image summarising AI to create better captions for the image dataset. We also want to use self-made or self-collected data, because that is higher quality.
-## No censorship
+## No censorship or bias
+The process is simple, add in some obedience dataset and some banned books, and it will be uncensored. As for bias, thats probably impossible to eliminate, but maybe we can control/limit it smh.
