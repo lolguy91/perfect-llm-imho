@@ -14,7 +14,7 @@ Seeing that QWEN 1.5b runs perfectly on my PC, I can imagine some other model of
 ## Mixture of experts
 The basic idea is to have multiple sets of weights for the model, and switch them around according to the reccomendation of a switcher model, this allows for only a fraction of the parameters of the model to be used at one time. This means less computation for the poor CPU that has to run AI.
 ## Quiet StAR
-IDK anything about this tech, but it adds an inner monolouge.
+IDK anything about this tech, but I think it adds an inner monolouge.
 ## Training
 The idea is to put a ton of datasets together, deduplicate it, and filter out the bullshit. For images, we may use the trick of training an image summarising AI to create better captions for the image dataset. We also want to use self-made or self-collected data, because that is higher quality.
 ## No censorship
